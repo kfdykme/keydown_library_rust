@@ -1,0 +1,16 @@
+[package]
+authors = ["Dan Spencer <dan@atomicpotato.net>", "Karl Skomski <karl@skomski.com>"]
+build = "build.rs"
+description = "An modified fork of libxm-rs https://github.com/nukep/libxm-rs for internal usage with the project soundboard"
+edition = "2018"
+license = "Unlicense"
+name = "libxm-soundboard"
+readme = "README.md"
+repository = "https://github.com/gamebooster/soundboard/tree/master/extern/libxm-rs"
+version = "0.0.3"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
